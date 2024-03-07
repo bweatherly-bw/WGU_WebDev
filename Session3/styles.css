@@ -1,0 +1,78 @@
+:root {
+    --color1: #F0F7D4;
+    --color2: #B2D732;
+    --color3: #4424D6;
+    --color4: #FC600A;
+    --color5: #110934;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color1)
+}
+
+h1 {
+    color: var(--color5);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/* h3 {
+    color: var(--color4);
+    font-style: italic;
+    font-variant: small-caps;
+} */
+
+.sectionHeader {
+    color: var(--color4);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.employerName {
+    color: var(--color3);
+    font-style: italic;
+}
+
+.positionTitle {
+    font-weight: bold;
+    color: var(--color3);
+    font-variant: small-caps;
+}
+
+/* Create a dateRange Class, Responsibilites class as well */
+
+#skillsList {
+    columns: 3;
+}  
+
+table {
+    margin: 14px;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 7px;
+    padding: 7px;
+    width: 98%;
+    /* Padding is on the INSIDE */
+    /* Margin is on the OUTSIDE */
+}
+
+caption {
+    font-style: italic;
+    color: grey;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+th {
+    font-style: italic;
+    font-variant: small-caps;
+    color: var(--color4);
+}
+
+td {
+    border: 1px solid var(--color3);
+    vertical-align: top;
+    padding: 7px;
+    color: var(--color5);
+}
