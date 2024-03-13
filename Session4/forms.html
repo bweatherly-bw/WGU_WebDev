@@ -13,6 +13,89 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero qui deleniti maxime et necessitatibus! Molestias temporibus sed assumenda est eaque quisquam, recusandae voluptates sequi minus nemo, asperiores ad nostrum dignissimos?</p>
     </section>
     <hr>
-    <section></section>
+    <section>
+        <h3 class="sectionHeader">Forms</h3>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+        <table>
+            <tr>
+                <!-- column Left -->
+                <td>
+                    <table>
+                        <tr>
+                            <td class="noborder">First Name</td>
+                            <td class="noborder"><input type="text" name="firstName" id="firstName"></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Last Name</td>
+                            <td class="noborder"><input type="text" name="lastName" id="lastName"></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Email Address</td>
+                            <td class="noborder"><input type="email" name="myEmail" id="myEmail"></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Password</td>
+                            <td class="noborder"><input type="password" name="myPassword" id="myPassword"></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Birthdate</td>
+                            <td class="noborder"><input type="date" name="birthDate" id="birthDate"></td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Best Contact Time</td>
+                            <td class="noborder">
+                                <input type="radio" name="contactTime" id="contactTimeAny" value="any"><label for="contactTimeAny">Anytime</label><br>
+                                <input type="radio" name="contactTime" id="contactTimeAM" value="am"><label for="contactTimeAm">AM</label><br>
+                                <input type="radio" name="contactTime" id="contactTimePM" value="pm"><label for="contactTimePM">PM</label><br>
+                                <input type="radio" name="contactTime" id="contactTimeSpecific" value="specific"><label for="contactTimeSpecific">Specific</label>  
+                                <input type="time" name="contactSpecific" id="contactSpecific">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                 <!-- column Right -->
+                 <td>
+                    <table>
+                        <tr>
+                            <td class="noborder">Checkboxes:</td>
+                            <td class="noborder">
+                                <input type="checkbox" name="demoCheckbox" id="demoCB1" value="1"><label for="demoCB1">1</label>
+                                <input type="checkbox" name="demoCheckbox" id="demoCB2" value="2"><label for="demoCB2">2</label>
+                                <input type="checkbox" name="demoCheckbox" id="demoCB3" value="3"><label for="demoCB3">3</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Multiple Select List:</td>
+                            <td class="noborder">
+                                <select name="mySelect" id="mySelect" multiple size="2">
+                                    <option value="1">Lorem, ipsum.</option>
+                                    <option value="2">Dolor, officia!</option>
+                                    <option value="3">In, quaerat.</option>
+                                    <option value="4">Minima, optio.</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="noborder">Single Select List:</td>
+                            <td class="noborder">
+                                <select name="mySelect" id="mySelect">
+                                    <option value="1">Lorem, ipsum.</option>
+                                    <option value="2">Dolor, officia!</option>
+                                    <option value="3">In, quaerat.</option>
+                                    <option value="4">Minima, optio.</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <td class="noborder">Text Area</td>
+                        <td class="noborder">
+                            <textarea name="myTA" id="myTA" cols="30" rows="10"></textarea>
+                        </td>
+                    </table>
+                 </td>
+            </tr>
+        </table>
+        <input type="reset" name="resetBtn" value="RESET FORM"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="submitBtn" value="SUBMIT FORM">
+        </form>
 </body>
 </html>

@@ -76,3 +76,12 @@ td {
     padding: 7px;
     color: var(--color5);
 }
+
+td.noborder {
+    border: none;
+    vertical-align: top;
+    padding: 7px;
+    color: var(--color5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
